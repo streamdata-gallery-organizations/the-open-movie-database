@@ -1,16 +1,9 @@
----
 swagger: "2.0"
 x-collection-name: The Open Movie Database
 x-complete: 1
 info:
-  title: OMDb
-  description: the-open-movie-database--the-omdb-api-is-a-free-web-service-to-obtain-movie-information-all-content-and-images-on-the-site-are-contributed-and-maintained-by-our-users-
-  termsOfService: http://www.omdbapi.com/legal.htm
-  contact:
-    name: Open Movie Database
-    url: http://omdbapi.com
-    email: bfritz@fadingsignal.com
-  version: "1"
+  title: The Open Movie Database
+  version: 1.0.0
 host: www.omdbapi.com
 basePath: /
 schemes:
@@ -66,4 +59,3 @@ paths:
           description: OK
       tags:
       - Movies
----
